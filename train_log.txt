@@ -1,0 +1,3 @@
+Loading Iris dataset...
+Model trained successfully. Accuracy: 1.0000
+Model saved to model/iris_model.pkl
