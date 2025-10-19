@@ -34,7 +34,6 @@ jobs:
         cat test_output.txt
 
     - name: Post test results as PR comment
-      if: github.event_name == 'pull_request'
       env:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
       run: |
