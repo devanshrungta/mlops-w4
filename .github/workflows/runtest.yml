@@ -43,7 +43,7 @@ jobs:
         echo "\`\`\`" >> report.md
         tail -n 20 test_output.txt >> report.md
         echo "\`\`\`" >> report.md
-        cml comment create --pr --publish report.md
+        cml comment create --publish report.md
 
     - name: Upload Logs
       uses: actions/upload-artifact@v4
